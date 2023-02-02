@@ -36,10 +36,10 @@ const Home = ({ match }) => {
         'Bánh kẹo - Đồ ăn vặt',
         "Sữa - Sản phẩm từ sữa",
         'Đồ uống - Giải khát',
-        'Hóa Mỹ phẩm',
+        'Thực phẩm chay',
         'Chăm sóc cá nhân',
-        // 'Chăm sóc mẹ và bé',
-        // 'Thể thao'
+        'Chăm sóc mẹ và bé',
+        'Thực phẩm nhập khẩu'
     ]
 
     const alert = useAlert();
@@ -89,7 +89,7 @@ const Home = ({ match }) => {
                             <div className="button">
                                 <p className="btnText">{category}</p>
                                 <div className="btnTwo">
-                                    <p className="btnText2">Chọn!</p>
+                                    <p className="btnText2">Chọn</p>
                                 </div>
 
                             </div>
@@ -140,7 +140,7 @@ const Home = ({ match }) => {
                                                 value={price}
                                                 onChange={price => setPrice(price)}
                                             />
-                                            <br/>
+                                            <br />
                                             <hr className="my-3" />
 
                                             <div className="mt-5">
@@ -184,7 +184,7 @@ const Home = ({ match }) => {
                                 </Fragment>
                             ) : (
                                 products.map(product => (
-                                    <Product key={product._id} product={product} col={3}/>
+                                    <Product key={product._id} product={product} col={3} />
                                 ))
                             )}
 

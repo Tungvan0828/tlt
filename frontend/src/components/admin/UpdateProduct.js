@@ -29,12 +29,12 @@ const UpdateProduct = ({ match, history }) => {
         'Thực phẩm đông lạnh',
         'Thực phẩm Khô - Gia Vị',
         'Bánh kẹo - Đồ ăn vặt',
-        "Sữa - Sản phẩm từ sữa",
+        'Sữa - Sản phẩm từ sữa',
         'Đồ uống - Giải khát',
-        'Hóa Mỹ phẩm',
+        'Thực phẩm chay',
         'Chăm sóc cá nhân',
         'Chăm sóc mẹ và bé',
-        'Thể thao'
+        'Thực phẩm nhập khẩu'
     ]
 
     const alert = useAlert();
@@ -206,7 +206,7 @@ const UpdateProduct = ({ match, history }) => {
                                         />
                                         <label className='custom-file-label' htmlFor='customFile'>
                                             Chọn hình
-                                 </label>
+                                        </label>
                                     </div>
 
                                     {oldImages && oldImages.map(img => (
@@ -227,7 +227,7 @@ const UpdateProduct = ({ match, history }) => {
                                     disabled={loading ? true : false}
                                 >
                                     Cập nhật
-                            </button>
+                                </button>
 
                             </form>
                         </div>

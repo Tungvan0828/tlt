@@ -57,10 +57,10 @@ const Dashboard = () => {
         });
     // Chart Line tính tổng doanh thu
     const lineState = {
-        labels: ["Số tiền ban đầu", "Tổng danh thu hiện tại"],
+        labels: ["Số tiền ban đầu", "Tổng doanh thu hiện tại"],
         datasets: [
             {
-                label: "TỔNG DANH THU",
+                label: "TỔNG DOANH THU",
                 backgroundColor: ["blue"],
                 hoverBackgroundColor: ["rgb(197, 72, 49)"],
                 data: [0, totalAmountall],
@@ -164,7 +164,7 @@ const Dashboard = () => {
                                         <div className="col-xl-3 col-sm-6 mb-3">
                                             <div className="card text-white bg-primary o-hidden h-100">
                                                 <div className="card-body">
-                                                    <div className="text-center card-font-size">Tổng danh thu<br /> <b>{totalAmount && totalAmount.toLocaleString()} VNĐ</b>
+                                                    <div className="text-center card-font-size">Tổng doanh thu<br /> <b>{totalAmount && totalAmount.toLocaleString()} VNĐ</b>
                                                     </div>
                                                 </div>
                                                 <Link className="card-footer text-white clearfix small z-1" to="/admin/orders">

@@ -29,10 +29,10 @@ const NewProduct = ({ history }) => {
         'Bánh kẹo - Đồ ăn vặt',
         "Sữa - Sản phẩm từ sữa",
         'Đồ uống - Giải khát',
-        'Hóa Mỹ phẩm',
+        'Thực phẩm chay',
         'Chăm sóc cá nhân',
         'Chăm sóc mẹ và bé',
-        'Thể thao'
+        'Thực phẩm nhập khẩu'
     ]
 
     const alert = useAlert();
@@ -195,7 +195,7 @@ const NewProduct = ({ history }) => {
                                     id="login_button"
                                     type="submit"
                                     className="btn btn-block py-3"
-                                    
+
                                 >
                                     Thêm mới
                                 </button>
